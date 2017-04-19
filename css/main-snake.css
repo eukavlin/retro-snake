@@ -15,14 +15,13 @@ body {
 button {
     font-family: terminalvector, terminalvector, arial, helvetica, sans-serif;
     font-size: 1.2em;
-    background: #000;
+    background: #222;
     border: 5px solid #9bbc0f;
     color: #9bbc0f;
     padding: 10px;
 }
 
 button:hover {
-    background: #000;
     border: 5px solid #ceff33;
     color: #ceff33;
     cursor: pointer;
@@ -128,7 +127,7 @@ a.snake-link:hover {
 .snake-welcome-dialog {
     padding: 20px;
     margin: 0px;
-    background-color: #000000;
+    background-color: #222;
     color: rgb(211, 255, 17);
     font-family: terminalvector, arial, helvetica, sans-serif;
     font-size: 1.2em;
@@ -145,7 +144,7 @@ a.snake-link:hover {
     box-sizing: border-box;
     padding: 20px 40px;
     margin: 0px;
-    background-color: #000000;
+    background-color: #222;
     color: rgb(211, 255, 17);
     font-family: terminalvector, arial, helvetica, sans-serif;
     font-size: 1.2em;
