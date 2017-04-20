@@ -56,19 +56,19 @@ a.snake-link:hover {
 }
 
 .snake-pause-screen {
+    padding: 20px;
+    margin: 0px;
+    background-color: #222;
+    color: rgb(211, 255, 17);
     font-family: terminalvector, arial, helvetica, sans-serif;
-    font-size: 14px;
-    position:absolute;
-    width:300px;
-    height:80px;
+    font-size: 1.2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    transform: translate(-50%,-50%);
     text-align:center;
-    top:50%;
-    left:50%;
-    margin-top:-40px;
-    margin-left:-150px;
     display:none;
-    background-color:black;
-    color:white;
 }
 
 .snake-panel-component {
